@@ -17,7 +17,16 @@
         "command": "regexpformat.helloWorld",
         "title": "css单位格式化"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "regexpformat.helloWorld",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
